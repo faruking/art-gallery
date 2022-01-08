@@ -1,0 +1,97 @@
+.lhs{
+
+	background-color: rgb(213, 150, 108); 
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 8px;
+	float: left;
+}
+.rhs{
+	
+	background-color: rgb(21, 21, 21);
+	width:150px;
+	height:30px;
+	text-align: center;
+	padding: 8px;
+	line-height: 30px;
+	color: white;
+	font-family: 'Big Shoulders Display',cursive;
+	letter-spacing: 3px;
+	font-weight: 500;
+	display: inline-block;
+
+	}
+	.button{
+	position: absolute;
+	margin-left: 120px;
+	z-index: 9;
+}
+#map{
+	height: 400px;
+	z-index: 3;
+}
+.dark_background{
+	align-items: stretch;
+	grid-gap: 100px;
+	display: flex;
+	padding:5% 10% 5% 10%;
+	background-color: #151515;
+	justify-content: space-between;
+}
+header{
+	font-family: 'Big Shoulders Display', cursive;
+	color: white;
+	font-weight: 900;
+}
+body{
+	line-height: 32px;
+	font-size: 22px;
+	font-family: 'Outfit',san-serif;
+	color: white;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	background-color:rgb(213, 150, 108);
+	width: 100%;
+	height: auto;
+	align-items: center;
+	padding-top: 24px;
+		padding-bottom: 24px;
+		color: rgb(21, 21, 21);
+}
+.button:hover .lhs{
+		background-color:rgb(21, 21, 21);
+}
+.button:hover .rhs{
+		background-color: rgb(213, 150, 108);
+}
+.nav{
+	display: flex;
+	grid-gap: 12px;
+}
+.icon-facebook{
+	background-image: url("./assets/icon-facebook-Black.svg");
+	width: 20px;
+  	height: 20px;
+}
+.icon-facebook:hover{
+	background-image: url("./assets/icon-facebook.svg");
+}
+.icon-instagram{
+	background-image: url("./assets/icon-instagram-Black.svg");
+	width: 20px;
+  	height: 20px;
+}
+.icon-instagram:hover{
+	background-image: url("./assets/icon-instagram.svg");	
+}
+.icon-twitter{
+	background-image: url("./assets/icon-twitter-Black.svg");
+	width: 20px;
+  	height: 17px;
+}
+.icon-twitter:hover{
+	background-image: url("./assets/icon-twitter.svg");
+}
