@@ -40,16 +40,16 @@
 </div>
 
 <div class="dark_background">
-  <div style="width: 30%">
+  <div class="db_item" >
 
-        <header style="line-height: 70px;font-size: 70px;color: white;">
-      OUR<br>
+        <header id="top-header">
+      OUR
       LOCATION
     </header>
 
 
   </div>
-  <div style="width: 55%">
+  <div class="db_item">
             <header style="line-height: 36px;font-size: 36px;color: #D5966C">
       99 KING STREET
     </header><br>
@@ -62,9 +62,9 @@
   </div>
 
 </div>
-   <script >
 
 
+   <script>
   var map = L.map('map').setView([51.51944, -0.721568], 13);
 
   var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -89,20 +89,20 @@
   }
 
   map.on('click', onMapClick);
-
-
    </script>
 
-<footer>
-  <div>
-   <header style="font-size: 36px;line-height: 36px;padding: 32px;color: black">  <div>
+
+   <div class="footer">
+  <div class="footer-flex">
+      <div class="footer-flex-item">
+   <header id="footer-header">  <div>
   MODERN<br>
   ART GALLERY</div></header>  </div>
   
-<div style="width: 30%;font-size: 18px;line-height: 28px">  The Modern Art Gallery is free to all visitors and open seven days a week 
+<div class="footer-flex-item" >  The Modern Art Gallery is free to all visitors and open seven days a week 
   from 8am to 9pm. Find us at 99 King Street, Newport, USA.</div>
 
-<div class="nav">
+<div class="footer-flex-item">
   <div class="icon-facebook">
     
   </div>
@@ -110,7 +110,8 @@
       <div class="icon-twitter"></div>
 
 </div>
-</footer>
+  </div>
+</div>
 
 </body>
 </html>
