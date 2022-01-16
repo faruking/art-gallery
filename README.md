@@ -56,8 +56,8 @@ Would like to continue learning layouts and how to style a character with differ
 
 ### Useful resources
 
-- [resource 1](https://leafletjs.com/) - Used this to create an interactive map
-- [resource 2](https://stackoverflow.com) - Used this to solve some of the minor problems i was having 
+- [leaflet map](https://leafletjs.com/) - Used this to create an interactive map
+- [stackoverfow](https://stackoverflow.com) - Used this to solve some of the minor problems i was having 
 
 ## Author
 
